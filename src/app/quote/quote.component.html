@@ -1,9 +1,9 @@
-<!-- <h1>My quotes</h1>
+ <h1>My quotes</h1>
 <div *ngFor='let quote of quotes';let i= index> <p>
 {{quote.id}},{{quote.quote}},{{quote.author}},{{quote.name}},</p> <button (click)='buttonclick(i)'> marial</button>
      <app-description *ngIf='quote.showDescription' [quote]='quote'></app-description> </div>
   -->
-  <!-- <h1>My quotes</h1>
+   <h1>My quotes</h1>
   <hr>
   <ul>
     <div *ngFor='let quote of quotes;let i = index'>
@@ -13,8 +13,8 @@
       <app-description *ngIf='quote.showDescription' [quote]='quote' (isComplete)= 'completeQuote($event, i)'></app-description>
     </div>
 
-  </ul> -->
-
+  </ul> 
+<!-- 
 <div class="container">
   <h1>MY Quote</h1>
   <hr>
@@ -25,6 +25,6 @@
         <div>
           <h6 id={{i}}>{{quote.quote}} due on {{quote}}</h6>
           <button (click)='marial(i)'>Toggle Details</button>
-        </div>
+        </div>  -->
 
-       
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>

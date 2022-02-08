@@ -35,7 +35,11 @@ completeQuote(isComplete:any ,index:any){
 }
 
 
-
+ addNewQuote(quote:any){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+  this.quotes.push(quote)
+  }
 
 
 
