@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { DescriptionComponent } from './description/description.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { RachealDirective } from './racheal.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
     DescriptionComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    RachealDirective
   ],
   imports: [
     BrowserModule,
