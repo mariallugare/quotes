@@ -1,14 +1,14 @@
- <h1>My quotes</h1>
+ <h1 class="bg-dark text-center text-white" >QUOTES FOR INSPIRATION,EDUCATION AND LIFE</h1>
 <div *ngFor='let quote of quotes';let i= index> <p>
 {{quote.id}},{{quote.quote}},{{quote.author}},{{quote.name}},</p> <button (click)='buttonclick(i)'> marial</button>
      <app-description *ngIf='quote.showDescription' [quote]='quote'></app-description> </div>
-  -->
-   <h1>My quotes</h1>
+
+   <h3> quotes:</h3>
   <hr>
   <ul>
     <div *ngFor='let quote of quotes;let i = index'>
-      <li>{{quote.quote}}</li>
-      <button (click)='toggleDetails(i)'>Toggle Details</button>
+      <li style='background-color:darkgray'>{{quote.quote}}</li>
+      <button (click)='toggleDetails(i)' style= background-color:black;color:ghostwhite>Show  Details</button>
 
       <app-description *ngIf='quote.showDescription' [quote]='quote' (isComplete)= 'completeQuote($event, i)'></app-description>
     </div>
