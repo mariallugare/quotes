@@ -11,10 +11,10 @@ export class QuoteComponent implements OnInit {
 
   quotes:Quotes[] =[
 
-    new Quotes(1,'life is short','marial','Alphine',0,0 ,'marial is d=shouting at us'),
-    new Quotes(1,'life is short','marial','Alphine',0,0 ,'marial is d=shouting at us'),
-    new Quotes(1,'life is short','marial','Alphine',0,0 ,'marial is d=shouting at us'),
-    new Quotes(1,'life is short','marial','Alphine',0,0 ,'marial is d=shouting at us'),
+    new Quotes(1,'Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.','marial','Alphine',0,0 ,'inspirational quote'),
+    new Quotes(2,'If you do not like something, change it. If you can not change it, change your attitude','maya angeluo','Alphine',0,0 ,'Educational quote'),
+    new Quotes(3,'The secret of change is to focus all of your energy not on fighting the old, but on building the new','mandela Nelson','Pascal',0,0 ,'direct quotes'),
+    new Quotes(4,'Change before you have to.','marial','jack welch',0,0 ,'Educational'),
   
   ]
   constructor() { }
