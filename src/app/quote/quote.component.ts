@@ -7,9 +7,9 @@ import { Quotes } from '../quotes';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quotes[] =[
-    {id:1,quote:'life is short',author:'marial',name:'Alphine',upvotes:0,downvotes:0 },
-    {id:2,quote:'we will win',author:'marial',name:'Alphine',upvotes:0,downvotes:0 },
-    {id:3,quote:'i love ',author:'marial',name:'Alphine',upvotes:0,downvotes:0 }
+    {id:1,quote:'life is short',author:'marial',name:'Alphine',upvotes:0,downvotes:0 ,description:'marial is d=shouting at us'},
+    {id:2,quote:'we will win',author:'marial',name:'Alphine',upvotes:0,downvotes:0 ,description:'we won'},
+    {id:3,quote:'i love ',author:'marial',name:'Alphine',upvotes:0,downvotes:0 ,description:'one million for angular'}
   ]
   constructor() { }
 
