@@ -34,10 +34,15 @@ Here is a link to the project https://mariallugare.github.io/quotes/).
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 ## Technology used:
 HTML5
+
 CSS
+
 [AngulerCLI]
+
 markdown
+
 Bootstrap
+
 ## Contact Information
 If you have any question or contributions, please email me at [mariallugare@gmail.com]
 
