@@ -7,6 +7,9 @@ import { QuoteComponent } from './quote/quote.component';
 import { DescriptionComponent } from './description/description.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { RachealDirective } from './racheal.directive';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import { RachealDirective } from './racheal.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

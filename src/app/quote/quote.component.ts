@@ -18,10 +18,10 @@ export class QuoteComponent implements OnInit {
   
   ]
   constructor() { }
-// buttonclick(index:number)  {this.quotes[index].showDescription=!this.quotes[index].showDescription}
+ buttonclick(index:number)  {this.quotes[index].showDescription=!this.quotes[index].showDescription}
 
-// i!:number
-// marial(index:number){this.quotes[index].showDescription= this.quotes[index].showDescription}
+i!:number
+ marial(index:number){this.quotes[index].showDescription= this.quotes[index].showDescription}
 
 
 toggleDetails(index:number){

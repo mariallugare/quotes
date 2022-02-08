@@ -1,10 +1,11 @@
-import { Directive } from '@angular/core';
+import { Directive} from '@angular/core';
 
 @Directive({
   selector: '[appRacheal]'
 })
 export class RachealDirective {
 
-  constructor() { }
+  constructor() { 
+    
 
-}
+}}

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Quote } from '../quotes';
+import { Quotes } from '../quotes';
 
 @Component({
   selector: 'app-quote-form',
@@ -7,7 +7,7 @@ import { Quote } from '../quotes';
   styleUrls: ['./quote-form.component.css']
 })
 export class QuoteFormComponent implements OnInit {
-  newQuote = new Quote(0,"","");
+  newQuote = new Quotes(0,"","","",0,0,"");
 
 
 

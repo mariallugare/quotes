@@ -3,17 +3,28 @@
 {{quote.id}},{{quote.quote}},{{quote.author}},{{quote.name}},</p> <button (click)='buttonclick(i)'> marial</button>
      <app-description *ngIf='quote.showDescription' [quote]='quote'></app-description> </div>
   -->
-  <h1>My quotes</h1>
+  <!-- <h1>My quotes</h1>
   <hr>
   <ul>
     <div *ngFor='let quote of quotes;let i = index'>
       <li>{{quote.quote}}</li>
       <button (click)='toggleDetails(i)'>Toggle Details</button>
-      
+
       <app-description *ngIf='quote.showDescription' [quote]='quote' (isComplete)= 'completeQuote($event, i)'></app-description>
     </div>
 
-  </ul>
+  </ul> -->
 
+<div class="container">
+  <h1>MY Quote</h1>
+  <hr>
 
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngFor='let quote of quotes;let i = index'>
+        <div>
+          <h6 id={{i}}>{{quote.quote}} due on {{quote}}</h6>
+          <button (click)='marial(i)'>Toggle Details</button>
+        </div>
 
+       
